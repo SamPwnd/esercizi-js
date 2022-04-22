@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+</head>
+
+<style>
+    body {
+        font-family: sans-serif;
+    }
+    td {
+      border: 2px solid black;
+    }
+    td:last-child {
+        border: 0;
+    }
+    input {
+        width: -webkit-fill-available;
+    }
+    button {
+        background-color: red;
+        color: white;
+    }
+    .add-btn {
+        background-color: lightskyblue;
+        color: black;
+    }
+</style>
+<body>
+    <table id="table">
+        <tr>
+          <th>Nome</th>
+          <th>Cognome</th>
+          <th>Età</th>
+        </tr>
+        <tr>
+          <td><input type="text"></td>
+          <td><input type="text"></td>
+          <td><input type="text"></td>
+          <td><button class="del-btn" onclick="deleteRow(this)">X</button></td>
+        </tr>
+        <tr>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><button class="del-btn" onclick="deleteRow(this)">X</button></td>
+        </tr>
+      </table>
+
+      <button class="add-btn" onclick="addRow()">ADD ROW</button></td>
+      <script src="tab.js"></script>
+</body>
+</html>

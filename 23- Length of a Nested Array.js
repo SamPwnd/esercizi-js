@@ -1,7 +1,5 @@
 function getLength(arr) {
-    for (let i = 0; i < arr.length; i++) {
-        arr = arr.flat();
-    }
+    arr = arr.flat(Infinity)
     return arr.length;
 }
 

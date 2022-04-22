@@ -1,5 +1,4 @@
 function getDays(firstDate, secondDate) {
-    console.log(firstDate);
     let timeBetween = secondDate.getTime() - firstDate.getTime();
     let oneDay = 24 * 60 * 60 * 1000;
     return timeBetween / oneDay;
