@@ -1,5 +1,6 @@
 body {
-  height: 100vw;
+  height: 100%;
+  background-color: azure;
 }
 
 .circle {
@@ -9,12 +10,6 @@ body {
   border-radius: 50%;
   margin-left: -50px;
   margin-top: -50px;
-  background: -webkit-gradient(linear, left top, left bottom, from(blue), to(black));
-  background: linear-gradient(blue, black);
-}
-
-.circle--new-circle {
-  background: -webkit-gradient(linear, left top, left bottom, from(teal), to(black));
-  background: linear-gradient(teal, black);
+  border: 1px solid black;
 }
 /*# sourceMappingURL=circle.css.map */
